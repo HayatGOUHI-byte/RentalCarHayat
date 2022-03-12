@@ -1,4 +1,4 @@
-:root {
+/*:root {
 
 };
 
@@ -9,12 +9,16 @@
 	box-sizing: border-box;
 	border:none;
 }
-
+*/
 <!----------------------------------Nav-bar-------------------------------------->
 
-.nav-items {
+/*.nav-items {
 	width:100%;
 	height:2rem;
 	background-color:green;
 	color:blue;
+}*/
+
+body {
+	font-size:12rem;
 }
