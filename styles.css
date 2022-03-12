@@ -1,6 +1,9 @@
 :root {
 	--font-sz:1.23rem;
 	--nav-clr:rgb(111, 178, 210);
+	--border-rds:15px;
+	--clr-ftr:rgb(238, 238, 238);
+	--clr-lastbar:#4683b8;
 
 };
 *,::before,::after{
@@ -17,6 +20,7 @@
 	display:flex;
 	gap:1rem;
 	padding:1rem;
+	border-radius:var(--border-rds);
 }
 .elements {
 	display:flex;
@@ -39,6 +43,36 @@ body {
 	font-size:2rem;
 }
 
-.small-title{
-	margin-left:95%;
+footer {
+	background-color:var(--clr-ftr);
+	width:100%;
+	padding:0.5rem;
+}
+
+.last-bar{
+	background-color:var(--clr-lastbar);
+	display:flex;
+	gap:1rem;
+	padding:0.5rem;
+}
+.last-side{
+	display:block;
+}
+.e-mail-bar{
+	border-color:white;
+	display:flex;
+	gap:1rem;
+}
+
+.phone-bar{
+	background-color:rgb(154, 208, 236);
+	margin-bottom:0.6rem;
+	display:flex;
+	gap:4rem;
+}
+
+
+.links {
+	display:flex;
+	gap:1rem;
 }
