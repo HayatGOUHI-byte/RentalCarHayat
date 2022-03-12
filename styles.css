@@ -1,5 +1,6 @@
 :root {
 	--font-sz:1.23rem;
+	--nav-clr:rgb(111, 178, 210);
 
 };
 *,::before,::after{
@@ -11,7 +12,8 @@
 .nav-items {
 	width:100%;
 	height:6rem;
-	background-color:green;
+	background-color:var(--nav-clr);
+	;
 	color:white;
 	display:flex;
 	gap:1rem;
@@ -30,9 +32,12 @@ img {
 }
 
 .Mad, .language, .Mg-books, .sign {
-	/* border:1px solid black; */
+	border:1px solid white
 }
 
 body {
 	font-size:var(--font-sz);
+}
+.logo {
+	font-size:2rem;
 }
